@@ -1,0 +1,14 @@
+window.addEventListener('scroll', e => {
+  document.body.style.cssText += `--scrollTop: ${this.scrollY}px`  
+})
+
+/* gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
+ScrollSmoother.create({
+  wrapper: '.wrapper',
+ container: '.container' 
+}) */
+
+/*
+cet partie ne marche pas. J`appele '.wrapper',
+ et '.container'qui sont classes sur html pour applique scroll
+*/
